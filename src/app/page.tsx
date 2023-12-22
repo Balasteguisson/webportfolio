@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <p>Web portfolio of Guillermo test, so this is already working</p>
+      <p>This will be the page for the blog im planning to do</p>
     </main>
     
 
