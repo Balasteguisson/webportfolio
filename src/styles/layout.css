@@ -1,0 +1,14 @@
+.headerDiv {
+    background-color: red;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height: 75px;
+    width: 100%;
+}
+
+.breadCrums {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}

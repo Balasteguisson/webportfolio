@@ -1,7 +1,13 @@
 .container{
+    width: 50%;
+    display: flex;
+    justify-self: right;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navItem {
     background-color: blue;
+    padding: 1px
     
 }

@@ -10,12 +10,12 @@ const pages = [
 
 export default function PortfolioNavigation () {
     return (
-        <div className="container">
+        <nav className="container">
             {pages.map((page => {
                 return (
                     <Link className="navItem" key={page.name} href={page.href}>{page.name}</Link>
                 )
             }))}
-        </div>
+        </nav>
     )
 }
