@@ -4,6 +4,8 @@
     justify-self: right;
     justify-content: space-between;
     align-items: center;
+    background-color: blueviolet;
+    margin-right: 5vw;
 }
 
 .navItem {

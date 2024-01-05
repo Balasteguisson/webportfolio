@@ -7,8 +7,10 @@
     width: 100%;
 }
 
-.breadCrums {
-    background-color: green;
+.logo {
     display: flex;
-    justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
 }
