@@ -1,5 +1,4 @@
 .headerDiv {
-    background-color: red;
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -9,7 +8,6 @@
 
 .logo {
     display: flex;
-    background-color: blue;
     align-items: center;
     justify-content: center;
     margin-left: 5vw;
