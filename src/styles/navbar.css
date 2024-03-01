@@ -8,6 +8,9 @@
 }
 
 .navItem {
-    padding: 1px
+    padding: 1px;
+    color: white;
+    text-decoration: none;
+
     
 }

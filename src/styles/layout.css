@@ -1,9 +1,10 @@
 .headerDiv {
     display: flex;
-    flex: 1;
     justify-content: space-between;
     height: 75px;
     width: 100%;
+    position: fixed;
+    z-index: 100;
 }
 
 .logo {
@@ -11,4 +12,5 @@
     align-items: center;
     justify-content: center;
     margin-left: 5vw;
+    font-weight: 600;
 }

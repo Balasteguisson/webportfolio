@@ -9,6 +9,7 @@ const pages = [
 ]
 
 export default function PortfolioNavigation () {
+    
     return (
         <nav className="container">
             {pages.map((page => {
