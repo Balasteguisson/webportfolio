@@ -3,8 +3,8 @@
     justify-content: space-between;
     height: 75px;
     width: 100%;
-    position: fixed;
     z-index: 100;
+    
 }
 
 .logo {
@@ -12,5 +12,26 @@
     align-items: center;
     justify-content: center;
     margin-left: 5vw;
+    position: relative;
+}
+
+.logo p {
     font-weight: 600;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.logo img{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.logo:hover p{
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.logo:hover img {
+    opacity: 1;
 }

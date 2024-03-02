@@ -14,7 +14,7 @@
 
     
 }
-
+.navItem:hover,
 .navItemActive {
     padding: 1px;
     color: #00abf0;
