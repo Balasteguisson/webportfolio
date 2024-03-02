@@ -1,3 +1,9 @@
-export default function Projects () {
-    return <p>Projects page</p>
+import '@/app/globals.css'
+
+export default function Projects() {
+  return (
+    <div className="contentContainer">
+      <p>Projects page</p>
+    </div>
+  )
 }

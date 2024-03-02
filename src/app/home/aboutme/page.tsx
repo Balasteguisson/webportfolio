@@ -1,5 +1,5 @@
 import TextDisplayer from "@/components/textDisplayer"
-
+import '@/app/globals.css'
 export default function AboutMe () {
     let paragraphs = [
       {
@@ -28,7 +28,7 @@ export default function AboutMe () {
       }
     ]
     return (
-        <div>
+        <div className="contentContainer">
             <TextDisplayer text ={paragraphs}/>
         </div>
     )

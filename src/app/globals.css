@@ -1,6 +1,6 @@
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: #081b29;
   --background-end-rgb: 0, 0, 77;
 }
 
@@ -21,4 +21,10 @@ body {
     )
     rgb(var(--background-start-rgb));
     min-height: 100svh;
+}
+
+.contentContainer {
+  min-height: calc(100vh - 75px);
+  display: flex;
+  align-items: center;
 }

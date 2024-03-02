@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier":"prettier -write ."
+    "prettier": "prettier -write ."
   },
   "dependencies": {
+    "clsx": "^2.1.0",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18"
