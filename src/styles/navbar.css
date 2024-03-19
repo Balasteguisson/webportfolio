@@ -5,12 +5,14 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 5vw;
+    max-width: 500px;
 }
 
 .navItem {
     padding: 1px;
     color: white;
     text-decoration: none;
+    font-weight: 600;
 
     
 }
@@ -19,4 +21,5 @@
     padding: 1px;
     color: #00abf0;
     text-decoration: none;
+    font-weight: 600;
 }
